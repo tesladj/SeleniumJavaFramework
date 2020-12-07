@@ -33,6 +33,7 @@ public class MotoGTest {
 		System.setProperty("webdriver.chrome.driver",projectPath + "/chromedriver/chromedriver.exe");
 		Config.driver = new ChromeDriver();
 	}
+	//Test
 	@Test(priority = 1)
 	public void motoG(){
 		Config.driver.get("https://www.motorola.com/us/");
