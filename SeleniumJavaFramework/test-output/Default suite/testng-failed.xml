@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumTest.MotoGTest">
+      <class name="dataProviders.SimpleTest">
         <methods>
-          <include name="viewCartPage"/>
-          <include name="motoG"/>
-          <include name="tearDown"/>
-          <include name="setUpTest"/>
+          <include name="search"/>
+          <include name="burnDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- seleniumTest.MotoGTest -->
+      </class> <!-- dataProviders.SimpleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
